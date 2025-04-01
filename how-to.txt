@@ -1,3 +1,9 @@
-FOR EXAMPLE:
 mkdir $HOME/.config/nvim
-stow ./nvim $HOME/.config/nvim
+stow ./nvim -t $HOME/.config/nvim
+
+mkdir $HOME/.bashrc.d/
+stow ./.bashrc.d/ -t $HOME/.bashrc.d/
+[restart shell]
+
+TO REMOVE STOW LINK:
+stow -D [command]
