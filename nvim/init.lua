@@ -15,10 +15,10 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Require plugins
 require('lazy').setup({
-    require 'plugins.colortheme',
     require 'plugins.treesitter',
     require 'plugins.neotree',
     require 'plugins.bufferline',
+    require 'plugins.colortheme',
     require 'plugins.autopairs',
     require 'plugins.telescope',
     require 'plugins.lualine',
